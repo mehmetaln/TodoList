@@ -108,3 +108,12 @@
 // let buttonText2 = button.innerHTML;
 
 // console.log(buttonText2);
+
+let todoList = Array.from(document.getElementsByClassName("list-group-item"));
+
+    todoList.forEach(function(todo){
+        console.log(todo);
+
+    })
+
+console.log(todoList);
