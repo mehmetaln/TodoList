@@ -109,11 +109,28 @@
 
 // console.log(buttonText2);
 
-let todoList = Array.from(document.getElementsByClassName("list-group-item"));
+// let todoList = Array.from(document.getElementsByClassName("list-group-item"));
 
-    todoList.forEach(function(todo){
-        console.log(todo);
+//     todoList.forEach(function(todo){
+//         console.log(todo.textContent);
 
-    })
+//     })
 
-console.log(todoList);
+// console.log(todoList);
+
+
+
+// const forms = document.getElementsByTagName("form")
+// console.log(forms[0
+
+
+
+
+
+
+// ]);
+
+const todo = document.querySelectorAll(".list-group-item")[0];
+// console.log(todo);
+
+todo.style.color="red"
