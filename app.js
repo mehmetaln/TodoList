@@ -107,3 +107,4 @@
 
  console.log(button);
 //  console.log(button.id);
+console.log(button.getAttribute("id"));
