@@ -92,9 +92,9 @@
 
 
 
- const button = document.getElementById("todoAddButton")
+//  const button = document.getElementById("todoAddButton")
 
- console.log(button);
+//  console.log(button);
 //  console.log(button.id);
 // console.log(button.getAttribute("id"));
 // console.log(button.className);
@@ -104,3 +104,7 @@
 // classListesi.forEach(function(classNAme){
 //     console.log(classNAme );
 // })
+
+// let buttonText2 = button.innerHTML;
+
+// console.log(buttonText2);
