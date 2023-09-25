@@ -86,3 +86,24 @@
 // })
 
 // console.log(todoList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ const button = document.getElementById("todoAddButton")
+
+ console.log(button);
+//  console.log(button.id);
