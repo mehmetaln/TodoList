@@ -131,6 +131,21 @@
 // ]);
 
 const todo = document.querySelectorAll(".list-group-item")[0];
-// console.log(todo);
+const todoList = document.querySelector(".list-group");
+const clearButton = document.querySelector("#todoClearButton")
 
-todo.style.color="red"
+console.log(clearButton);
+
+todo.style.color="white";
+todo.style.backgroundColor="purple";
+todo.style.fontWeight ="900";
+todo.style.paddingTop ="20px";
+todo.style.paddingLeft = "70px";
+todoList.style.marginTop="60px";
+
+
+clearButton.style.backgroundColor= "red";
+clearButton.style.fontWeight="900";
+clearButton.style.color ="black"
+clearButton.style.padding="50px"
+clearButton.style.borderRadius="40px"
