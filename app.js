@@ -92,19 +92,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
  const button = document.getElementById("todoAddButton")
 
  console.log(button);
 //  console.log(button.id);
-console.log(button.getAttribute("id"));
+// console.log(button.getAttribute("id"));
+// console.log(button.className);
+
+// const classListesi = button.classList;
+
+// classListesi.forEach(function(classNAme){
+//     console.log(classNAme );
+// })
