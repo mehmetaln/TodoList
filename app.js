@@ -149,3 +149,25 @@
 // clearButton.style.color ="black"
 // clearButton.style.padding="50px"
 // clearButton.style.borderRadius="40px"
+
+
+
+
+
+
+
+const todo = document.querySelector(".list-group-item");
+const todoList = document.querySelector(".list-group")
+const card = document.querySelector(".card")
+
+let value;
+
+value =todoList;
+value = todoList.children[0];
+
+value = Array.from(todoList.children);
+value.forEach(function(todo){
+    console.log(todo.textContent );
+})
+
+// console.log(value);
