@@ -171,29 +171,32 @@
 // })
 
 // console.log(value);
-const cardBody = document.querySelectorAll( ".card-body")[1];
-console.log(cardBody);
+// const cardBody = document.querySelectorAll( ".card-body")[1];
+// const todoList = document.querySelector(".list-group");
+// console.log(cardBody);
 
-const link = document.createElement("a");
-link.id="goBlogWebSite";
-link.className="btn btn-dark btn-sm mt-3";
-link.href = "https://github.com/mehmetaln";
-link.target = "_blank";
-link.innerHTML = "Benim Web Siteme Git";
-cardBody.appendChild(link);
-console.log(link);
+// const link = document.createElement("a");
+// link.id="goBlogWebSite";
+// link.className="btn btn-dark btn-sm mt-3";
+// link.href = "https://github.com/mehmetaln";
+// link.target = "_blank";
+// link.innerHTML = "Benim Web Siteme Git";
+// cardBody.appendChild(link);
+// console.log(link);
 
 
-const todo = document.createElement("li");
-const todoLink = document.createElement("a");
-const i = document.createElement("i");
-todo.className= "list-group-item d-flex justify-content-between";
-todo.innerHTML ="Todo 5"
+// const todo = document.createElement("li");
+// const todoLink = document.createElement("a");
+// const i = document.createElement("i");
 
-todoLink.href="#";
-todoLink.className = "delete-item"
+// todo.className= "list-group-item d-flex justify-content-between";
+// todo.innerHTML ="Todo 5";
 
-i.className= "fa fa-remove";
+// todoLink.href="#";
+// todoLink.className = "delete-item";
 
-todoLink.appendChild(i);
-todo.appendChild(todoLink);
+// i.className= "fa fa-remove";
+
+// todoLink.appendChild(i);
+// todo.appendChild(todoLink);
+// todoList.appendChild(todo);
