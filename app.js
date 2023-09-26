@@ -156,18 +156,23 @@
 
 
 
-const todo = document.querySelector(".list-group-item");
-const todoList = document.querySelector(".list-group")
-const card = document.querySelector(".card")
+// const todo = document.querySelector(".list-group-item");
+// const todoList = document.querySelector(".list-group")
+// const card = document.querySelector(".card")
 
-let value;
+// let value;
 
-value =todoList;
-value = todoList.children[0];
+// value =todoList;
+// value = todoList.children[0];
 
-value = Array.from(todoList.children);
-value.forEach(function(todo){
-    console.log(todo.textContent );
-})
+// value = Array.from(todoList.children);
+// value.forEach(function(todo){
+//     console.log(todo.textContent );
+// })
 
 // console.log(value);
+
+
+const link = document.createElement("a");
+link.id="goBlogWebSite";
+link.className="btn btn-dark btn-sm mt-3"
