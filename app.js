@@ -171,8 +171,13 @@
 // })
 
 // console.log(value);
-
+const cardBody = document.querySelectorAll( ".card-body")[1];
+console.log(cardBody);
 
 const link = document.createElement("a");
 link.id="goBlogWebSite";
-link.className="btn btn-dark btn-sm mt-3"
+link.className="btn btn-dark btn-sm mt-3";
+link.href = "https://github.com/mehmetaln";
+link.target = "_blank";
+link.innerHTML = "Benim Web Siteme Git";
+console.log(link);
